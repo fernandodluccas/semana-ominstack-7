@@ -1,0 +1,2 @@
+# semana-ominstack-7
+ 
