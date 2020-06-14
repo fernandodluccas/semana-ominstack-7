@@ -13,7 +13,7 @@ mongoose.connect(
   "mongodb+srv://admin:Pdz294UPQsrxuR1s@cluster0-m1yml.gcp.mongodb.net/week7?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
-app.use((req, res, nexr) => {
+app.use((req, res, next) => {
   req.io = io
   next()
 })
